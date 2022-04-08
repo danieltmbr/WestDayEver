@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73D4B4227FCF2DA0036AE68 /* Album in Frameworks */ = {isa = PBXBuildFile; productRef = A73D4B4127FCF2DA0036AE68 /* Album */; };
+		A73D4B4427FCF2E30036AE68 /* Album in Frameworks */ = {isa = PBXBuildFile; productRef = A73D4B4327FCF2E30036AE68 /* Album */; };
+		A78A3A6627FC3A8800D36179 /* Artist in Frameworks */ = {isa = PBXBuildFile; productRef = A78A3A6527FC3A8800D36179 /* Artist */; };
+		A78A3A6827FC3A9D00D36179 /* Artist in Frameworks */ = {isa = PBXBuildFile; productRef = A78A3A6727FC3A9D00D36179 /* Artist */; };
+		A7B0A14927FF30BA008F937E /* AlbumDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0A14827FF30BA008F937E /* AlbumDetailsView.swift */; };
+		A7B0A14B27FF30D8008F937E /* Track in Frameworks */ = {isa = PBXBuildFile; productRef = A7B0A14A27FF30D8008F937E /* Track */; };
+		A7B0A14D27FF30DE008F937E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = A7B0A14C27FF30DE008F937E /* DesignKit */; };
+		A7B0A14F27FF30E5008F937E /* Track in Frameworks */ = {isa = PBXBuildFile; productRef = A7B0A14E27FF30E5008F937E /* Track */; };
+		A7B0A15127FF30E9008F937E /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = A7B0A15027FF30E9008F937E /* DesignKit */; };
+		A7B0A15227FF35E9008F937E /* AlbumDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0A14827FF30BA008F937E /* AlbumDetailsView.swift */; };
+		A7F94FC127F9FA3B00C12DD5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FC027F9FA3B00C12DD5 /* Tests_iOS.swift */; };
+		A7F94FC327F9FA3B00C12DD5 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FC227F9FA3B00C12DD5 /* Tests_iOSLaunchTests.swift */; };
+		A7F94FCD27F9FA3B00C12DD5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FCC27F9FA3B00C12DD5 /* Tests_macOS.swift */; };
+		A7F94FCF27F9FA3B00C12DD5 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FCE27F9FA3B00C12DD5 /* Tests_macOSLaunchTests.swift */; };
+		A7F94FD027F9FA3B00C12DD5 /* WestDayEverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FA827F9FA3900C12DD5 /* WestDayEverApp.swift */; };
+		A7F94FD127F9FA3B00C12DD5 /* WestDayEverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FA827F9FA3900C12DD5 /* WestDayEverApp.swift */; };
+		A7F94FD227F9FA3B00C12DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FA927F9FA3900C12DD5 /* ContentView.swift */; };
+		A7F94FD327F9FA3B00C12DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F94FA927F9FA3900C12DD5 /* ContentView.swift */; };
+		A7F94FD427F9FA3B00C12DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F94FAA27F9FA3B00C12DD5 /* Assets.xcassets */; };
+		A7F94FD527F9FA3B00C12DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F94FAA27F9FA3B00C12DD5 /* Assets.xcassets */; };
+		A7F9500627FB06E400C12DD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F9500927FB06E400C12DD5 /* Localizable.strings */; };
+		A7F9500727FB06E400C12DD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F9500927FB06E400C12DD5 /* Localizable.strings */; };
+		A7F9500B27FB070C00C12DD5 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = A7F9500A27FB070C00C12DD5 /* Localizable.stringsdict */; };
+		A7F9500C27FB070C00C12DD5 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = A7F9500A27FB070C00C12DD5 /* Localizable.stringsdict */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F94FBD27F9FA3B00C12DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F94FA327F9FA3900C12DD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F94FAE27F9FA3B00C12DD5;
+			remoteInfo = "WestDayEver (iOS)";
+		};
+		A7F94FC927F9FA3B00C12DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F94FA327F9FA3900C12DD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F94FB427F9FA3B00C12DD5;
+			remoteInfo = "WestDayEver (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A72187BB27FB464900819435 /* Artist */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Artist; sourceTree = "<group>"; };
+		A757BA1F27FB179A00E092E6 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		A757BA2127FB1A0900E092E6 /* Storage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Storage; sourceTree = "<group>"; };
+		A78A3A6927FC405600D36179 /* DesignKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DesignKit; sourceTree = "<group>"; };
+		A79119E927FDE644000A0A77 /* Track */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Track; sourceTree = "<group>"; };
+		A7924CDC27FC8BD600C10829 /* Album */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Album; sourceTree = "<group>"; };
+		A7B0A14827FF30BA008F937E /* AlbumDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsView.swift; sourceTree = "<group>"; };
+		A7C0533228008229001B32D5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A7F84C7627FF99FC005D2345 /* Fetcher */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Fetcher; sourceTree = "<group>"; };
+		A7F94FA827F9FA3900C12DD5 /* WestDayEverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestDayEverApp.swift; sourceTree = "<group>"; };
+		A7F94FA927F9FA3900C12DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7F94FAA27F9FA3B00C12DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F94FAF27F9FA3B00C12DD5 /* West day ever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "West day ever.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F94FB527F9FA3B00C12DD5 /* WestDayEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestDayEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F94FB727F9FA3B00C12DD5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A7F94FBC27F9FA3B00C12DD5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F94FC027F9FA3B00C12DD5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A7F94FC227F9FA3B00C12DD5 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		A7F94FC827F9FA3B00C12DD5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F94FCC27F9FA3B00C12DD5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		A7F94FCE27F9FA3B00C12DD5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		A7F9500827FB06E400C12DD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A7F9500A27FB070C00C12DD5 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F94FAC27F9FA3B00C12DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B0A14B27FF30D8008F937E /* Track in Frameworks */,
+				A73D4B4427FCF2E30036AE68 /* Album in Frameworks */,
+				A78A3A6627FC3A8800D36179 /* Artist in Frameworks */,
+				A7B0A14D27FF30DE008F937E /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FB227F9FA3B00C12DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B0A14F27FF30E5008F937E /* Track in Frameworks */,
+				A73D4B4227FCF2DA0036AE68 /* Album in Frameworks */,
+				A78A3A6827FC3A9D00D36179 /* Artist in Frameworks */,
+				A7B0A15127FF30E9008F937E /* DesignKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FB927F9FA3B00C12DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FC527F9FA3B00C12DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A757BA1D27FB166A00E092E6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A7924CDC27FC8BD600C10829 /* Album */,
+				A72187BB27FB464900819435 /* Artist */,
+				A78A3A6927FC405600D36179 /* DesignKit */,
+				A7F84C7627FF99FC005D2345 /* Fetcher */,
+				A757BA1F27FB179A00E092E6 /* Networking */,
+				A757BA2127FB1A0900E092E6 /* Storage */,
+				A79119E927FDE644000A0A77 /* Track */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		A78A3A6427FC3A8800D36179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F94FA227F9FA3900C12DD5 = {
+			isa = PBXGroup;
+			children = (
+				A7C0533228008229001B32D5 /* README.md */,
+				A7F94FA727F9FA3900C12DD5 /* Shared */,
+				A757BA1D27FB166A00E092E6 /* Packages */,
+				A7F94FB627F9FA3B00C12DD5 /* macOS */,
+				A7F94FBF27F9FA3B00C12DD5 /* Tests iOS */,
+				A7F94FCB27F9FA3B00C12DD5 /* Tests macOS */,
+				A7F94FB027F9FA3B00C12DD5 /* Products */,
+				A78A3A6427FC3A8800D36179 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F94FA727F9FA3900C12DD5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A7F94FA827F9FA3900C12DD5 /* WestDayEverApp.swift */,
+				A7F94FA927F9FA3900C12DD5 /* ContentView.swift */,
+				A7F94FE427FA0A8600C12DD5 /* AlbumDetails */,
+				A7F9500227FB06B700C12DD5 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A7F94FB027F9FA3B00C12DD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F94FAF27F9FA3B00C12DD5 /* West day ever.app */,
+				A7F94FB527F9FA3B00C12DD5 /* WestDayEver.app */,
+				A7F94FBC27F9FA3B00C12DD5 /* Tests iOS.xctest */,
+				A7F94FC827F9FA3B00C12DD5 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F94FB627F9FA3B00C12DD5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7F94FB727F9FA3B00C12DD5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A7F94FBF27F9FA3B00C12DD5 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7F94FC027F9FA3B00C12DD5 /* Tests_iOS.swift */,
+				A7F94FC227F9FA3B00C12DD5 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A7F94FCB27F9FA3B00C12DD5 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7F94FCC27F9FA3B00C12DD5 /* Tests_macOS.swift */,
+				A7F94FCE27F9FA3B00C12DD5 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		A7F94FE427FA0A8600C12DD5 /* AlbumDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0A14827FF30BA008F937E /* AlbumDetailsView.swift */,
+			);
+			path = AlbumDetails;
+			sourceTree = "<group>";
+		};
+		A7F9500227FB06B700C12DD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7F94FAA27F9FA3B00C12DD5 /* Assets.xcassets */,
+				A7F9500927FB06E400C12DD5 /* Localizable.strings */,
+				A7F9500A27FB070C00C12DD5 /* Localizable.stringsdict */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F94FAE27F9FA3B00C12DD5 /* WestDayEver (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F94FD827F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "WestDayEver (iOS)" */;
+			buildPhases = (
+				A7F94FAB27F9FA3B00C12DD5 /* Sources */,
+				A7F94FAC27F9FA3B00C12DD5 /* Frameworks */,
+				A7F94FAD27F9FA3B00C12DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WestDayEver (iOS)";
+			packageProductDependencies = (
+				A78A3A6527FC3A8800D36179 /* Artist */,
+				A73D4B4327FCF2E30036AE68 /* Album */,
+				A7B0A14A27FF30D8008F937E /* Track */,
+				A7B0A14C27FF30DE008F937E /* DesignKit */,
+			);
+			productName = "WestDayEver (iOS)";
+			productReference = A7F94FAF27F9FA3B00C12DD5 /* West day ever.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F94FB427F9FA3B00C12DD5 /* WestDayEver (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F94FDB27F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "WestDayEver (macOS)" */;
+			buildPhases = (
+				A7F94FB127F9FA3B00C12DD5 /* Sources */,
+				A7F94FB227F9FA3B00C12DD5 /* Frameworks */,
+				A7F94FB327F9FA3B00C12DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WestDayEver (macOS)";
+			packageProductDependencies = (
+				A78A3A6727FC3A9D00D36179 /* Artist */,
+				A73D4B4127FCF2DA0036AE68 /* Album */,
+				A7B0A14E27FF30E5008F937E /* Track */,
+				A7B0A15027FF30E9008F937E /* DesignKit */,
+			);
+			productName = "WestDayEver (macOS)";
+			productReference = A7F94FB527F9FA3B00C12DD5 /* WestDayEver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F94FBB27F9FA3B00C12DD5 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F94FDE27F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A7F94FB827F9FA3B00C12DD5 /* Sources */,
+				A7F94FB927F9FA3B00C12DD5 /* Frameworks */,
+				A7F94FBA27F9FA3B00C12DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F94FBE27F9FA3B00C12DD5 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A7F94FBC27F9FA3B00C12DD5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A7F94FC727F9FA3B00C12DD5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F94FE127F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A7F94FC427F9FA3B00C12DD5 /* Sources */,
+				A7F94FC527F9FA3B00C12DD5 /* Frameworks */,
+				A7F94FC627F9FA3B00C12DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F94FCA27F9FA3B00C12DD5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A7F94FC827F9FA3B00C12DD5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F94FA327F9FA3900C12DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A7F94FAE27F9FA3B00C12DD5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					A7F94FB427F9FA3B00C12DD5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					A7F94FBB27F9FA3B00C12DD5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A7F94FAE27F9FA3B00C12DD5;
+					};
+					A7F94FC727F9FA3B00C12DD5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A7F94FB427F9FA3B00C12DD5;
+					};
+				};
+			};
+			buildConfigurationList = A7F94FA627F9FA3900C12DD5 /* Build configuration list for PBXProject "WestDayEver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F94FA227F9FA3900C12DD5;
+			productRefGroup = A7F94FB027F9FA3B00C12DD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F94FAE27F9FA3B00C12DD5 /* WestDayEver (iOS) */,
+				A7F94FB427F9FA3B00C12DD5 /* WestDayEver (macOS) */,
+				A7F94FBB27F9FA3B00C12DD5 /* Tests iOS */,
+				A7F94FC727F9FA3B00C12DD5 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F94FAD27F9FA3B00C12DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F94FD427F9FA3B00C12DD5 /* Assets.xcassets in Resources */,
+				A7F9500627FB06E400C12DD5 /* Localizable.strings in Resources */,
+				A7F9500B27FB070C00C12DD5 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FB327F9FA3B00C12DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F94FD527F9FA3B00C12DD5 /* Assets.xcassets in Resources */,
+				A7F9500727FB06E400C12DD5 /* Localizable.strings in Resources */,
+				A7F9500C27FB070C00C12DD5 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FBA27F9FA3B00C12DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FC627F9FA3B00C12DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F94FAB27F9FA3B00C12DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F94FD227F9FA3B00C12DD5 /* ContentView.swift in Sources */,
+				A7F94FD027F9FA3B00C12DD5 /* WestDayEverApp.swift in Sources */,
+				A7B0A14927FF30BA008F937E /* AlbumDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FB127F9FA3B00C12DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B0A15227FF35E9008F937E /* AlbumDetailsView.swift in Sources */,
+				A7F94FD327F9FA3B00C12DD5 /* ContentView.swift in Sources */,
+				A7F94FD127F9FA3B00C12DD5 /* WestDayEverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FB827F9FA3B00C12DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F94FC327F9FA3B00C12DD5 /* Tests_iOSLaunchTests.swift in Sources */,
+				A7F94FC127F9FA3B00C12DD5 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F94FC427F9FA3B00C12DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F94FCF27F9FA3B00C12DD5 /* Tests_macOSLaunchTests.swift in Sources */,
+				A7F94FCD27F9FA3B00C12DD5 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F94FBE27F9FA3B00C12DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F94FAE27F9FA3B00C12DD5 /* WestDayEver (iOS) */;
+			targetProxy = A7F94FBD27F9FA3B00C12DD5 /* PBXContainerItemProxy */;
+		};
+		A7F94FCA27F9FA3B00C12DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F94FB427F9FA3B00C12DD5 /* WestDayEver (macOS) */;
+			targetProxy = A7F94FC927F9FA3B00C12DD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7F9500927FB06E400C12DD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F9500827FB06E400C12DD5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F94FD627F9FA3B00C12DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7F94FD727F9FA3B00C12DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A7F94FD927F9FA3B00C12DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tmbr.WestDayEver;
+				PRODUCT_NAME = "West day ever";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F94FDA27F9FA3B00C12DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tmbr.WestDayEver;
+				PRODUCT_NAME = "West day ever";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F94FDC27F9FA3B00C12DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "West day ever";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tmbr.WestDayEver;
+				PRODUCT_NAME = WestDayEver;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A7F94FDD27F9FA3B00C12DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "West day ever";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tmbr.WestDayEver;
+				PRODUCT_NAME = WestDayEver;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A7F94FDF27F9FA3B00C12DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tmbr.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WestDayEver (iOS)";
+			};
+			name = Debug;
+		};
+		A7F94FE027F9FA3B00C12DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tmbr.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WestDayEver (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F94FE227F9FA3B00C12DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tmbr.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WestDayEver (macOS)";
+			};
+			name = Debug;
+		};
+		A7F94FE327F9FA3B00C12DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TASVK5T6MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tmbr.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WestDayEver (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F94FA627F9FA3900C12DD5 /* Build configuration list for PBXProject "WestDayEver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F94FD627F9FA3B00C12DD5 /* Debug */,
+				A7F94FD727F9FA3B00C12DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F94FD827F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "WestDayEver (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F94FD927F9FA3B00C12DD5 /* Debug */,
+				A7F94FDA27F9FA3B00C12DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F94FDB27F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "WestDayEver (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F94FDC27F9FA3B00C12DD5 /* Debug */,
+				A7F94FDD27F9FA3B00C12DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F94FDE27F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F94FDF27F9FA3B00C12DD5 /* Debug */,
+				A7F94FE027F9FA3B00C12DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F94FE127F9FA3B00C12DD5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F94FE227F9FA3B00C12DD5 /* Debug */,
+				A7F94FE327F9FA3B00C12DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A73D4B4127FCF2DA0036AE68 /* Album */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Album;
+		};
+		A73D4B4327FCF2E30036AE68 /* Album */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Album;
+		};
+		A78A3A6527FC3A8800D36179 /* Artist */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Artist;
+		};
+		A78A3A6727FC3A9D00D36179 /* Artist */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Artist;
+		};
+		A7B0A14A27FF30D8008F937E /* Track */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Track;
+		};
+		A7B0A14C27FF30DE008F937E /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKit;
+		};
+		A7B0A14E27FF30E5008F937E /* Track */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Track;
+		};
+		A7B0A15027FF30E9008F937E /* DesignKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A7F94FA327F9FA3900C12DD5 /* Project object */;
+}

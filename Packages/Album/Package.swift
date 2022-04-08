@@ -1,0 +1,38 @@
+// swift-tools-version: 5.6
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
+import PackageDescription
+
+let package = Package(
+    name: "Album",
+    platforms: [
+        .macOS("12.0"), .iOS("15.0"), .tvOS("15.0")
+    ],
+    products: [
+        // Products define the executables and libraries a package produces, and make them visible to other packages.
+        .library(
+            name: "Album",
+            targets: ["Album"]),
+    ],
+    dependencies: [
+        .package(path: "../DesignKit"),
+        .package(path: "../Fetcher"),
+        .package(path: "../Networking"),
+        .package(path: "../Storage"),
+    ],
+    targets: [
+        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
+        // Targets can depend on other targets in this package, and on products in packages this package depends on.
+        .target(
+            name: "Album",
+            dependencies: [
+                "DesignKit",
+                "Fetcher",
+                "Networking",
+                "Storage",
+            ]),
+        .testTarget(
+            name: "AlbumTests",
+            dependencies: ["Album"]),
+    ]
+)
