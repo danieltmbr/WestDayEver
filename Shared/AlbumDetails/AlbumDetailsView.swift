@@ -68,7 +68,7 @@ struct AlbumDetailsView: View {
                 Divider()
             }
             .frame(maxWidth: Constants.contentMaxWidth)
-//            .centered(.horizontal)
+            .centered(.horizontal)
             .hideListSeparator()
         }
         .redacted(reason: model.redacted)
